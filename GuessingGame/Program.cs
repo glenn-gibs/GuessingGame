@@ -43,6 +43,7 @@ namespace GuessingGame
                 Console.WriteLine("Guess: " + guesses);
 
                 Console.WriteLine("Would you like to play again (Y/N): ");
+                response = Console.ReadLine();
             }
 
             
