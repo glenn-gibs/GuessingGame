@@ -26,6 +26,14 @@ namespace GuessingGame
                     Console.WriteLine("Guess a number between " + min + " - " + max + " : ");
                     guess = Convert.ToInt32(Console.ReadLine());
                     Console.WriteLine("Guess: " + guess);
+
+                    if (guess > number)
+                    {
+                        Console.WriteLine(guess + " is too high!");
+                    } else if (guess < number)
+                    {
+                        Console.WriteLine(guess + " is too low!");
+                    }
                 }
             }
 
