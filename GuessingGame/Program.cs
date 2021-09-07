@@ -34,7 +34,7 @@ namespace GuessingGame
                     {
                         Console.WriteLine(guess + " is too low!");
                     }
-                    guess++;
+                    guesses++;
                 }
             }
 
