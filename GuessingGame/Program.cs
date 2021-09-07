@@ -24,6 +24,7 @@ namespace GuessingGame
                 while(guess != number)
                 {
                     Console.WriteLine("Guess a number between " + min + " - " + max + " : ");
+                    guess = Convert.ToInt32(Console.ReadLine());
                 }
             }
 
