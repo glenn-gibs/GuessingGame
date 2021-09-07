@@ -36,6 +36,9 @@ namespace GuessingGame
                     }
                     guesses++;
                 }
+                Console.WriteLine("Number: " + number);
+                Console.WriteLine("YOU WIN!");
+                Console.WriteLine("Guess: " + guesses);
             }
 
             
