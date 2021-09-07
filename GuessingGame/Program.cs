@@ -55,6 +55,8 @@ namespace GuessingGame
                 }
             }
 
+            Console.WriteLine("Thanks for playing! ... I guess");
+
             
         }
     }
