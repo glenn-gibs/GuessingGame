@@ -27,7 +27,7 @@ namespace GuessingGame
                 }
             }
 
-            Console.WriteLine("Hello World!");
+            
         }
     }
 }
