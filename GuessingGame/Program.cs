@@ -7,6 +7,7 @@ namespace GuessingGame
         static void Main(string[] args)
         {
             Random random = new Random();
+            bool playAgain = true;
 
             Console.WriteLine("Hello World!");
         }
