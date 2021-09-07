@@ -45,6 +45,14 @@ namespace GuessingGame
                 Console.WriteLine("Would you like to play again (Y/N): ");
                 response = Console.ReadLine();
                 response = response.ToUpper();
+
+                if(response == "Y")
+                {
+                    playAgain = true;
+                } else
+                {
+                    playAgain = false;
+                }
             }
 
             
