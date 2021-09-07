@@ -41,6 +41,8 @@ namespace GuessingGame
                 Console.WriteLine("Number: " + number);
                 Console.WriteLine("YOU WIN!");
                 Console.WriteLine("Guess: " + guesses);
+
+                Console.WriteLine("Would you like to play again (Y/N): ");
             }
 
             
