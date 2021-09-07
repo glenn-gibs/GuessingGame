@@ -13,6 +13,7 @@ namespace GuessingGame
             int guess;
             int number;
             int guesses;
+            String response;
 
             while(playAgain)
             {
