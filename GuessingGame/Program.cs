@@ -18,6 +18,7 @@ namespace GuessingGame
             {
                 guess = 0;
                 guesses = 0;
+                number = random.Next();
             }
 
             Console.WriteLine("Hello World!");
