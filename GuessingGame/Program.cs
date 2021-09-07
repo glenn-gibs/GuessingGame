@@ -44,6 +44,7 @@ namespace GuessingGame
 
                 Console.WriteLine("Would you like to play again (Y/N): ");
                 response = Console.ReadLine();
+                response = response.ToUpper();
             }
 
             
