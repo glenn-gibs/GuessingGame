@@ -17,6 +17,7 @@ namespace GuessingGame
             while(playAgain)
             {
                 guess = 0;
+                guesses = 0;
             }
 
             Console.WriteLine("Hello World!");
