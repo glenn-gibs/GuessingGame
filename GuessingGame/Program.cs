@@ -20,6 +20,11 @@ namespace GuessingGame
                 guesses = 0;
                 // generate random number between 1 and 100. The +1 number is exclusive.s
                 number = random.Next(min, max + 1);
+
+                while(guess != number)
+                {
+
+                }
             }
 
             Console.WriteLine("Hello World!");
